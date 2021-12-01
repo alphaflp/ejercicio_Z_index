@@ -1,0 +1,53 @@
+.div1 {
+    border: rgb(0, 0, 0) 2px solid;
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: rgb(112, 1, 150);
+    z-index: 0;
+}
+.div2 {
+    border: black 2px solid;
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    background-color: rgba(112, 1, 150, 0.8);
+    z-index: -1;
+}
+.div3 {
+    border: black 2px solid;
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    background-color: rgba(112, 1, 150, 0.6);
+    z-index: -2;
+}
+.div4 {
+    border: black 2px solid;
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    left: 70px;
+    top: 40px;
+    background-color: rgba(112, 1, 150, 0.4);
+    z-index: -3;
+}
+.div5 {
+    border: black 2px solid;
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    left: 90px;
+    top: 50px;
+    background-color: rgba(112, 1, 150, 0.2);
+    z-index: -4;
+}
+body{
+    background-color: rgb(12, 12, 12)
+}
